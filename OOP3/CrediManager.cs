@@ -4,9 +4,11 @@ using System.Text;
 
 namespace OOP3
 {
-    interface IKrediManager
+    interface ICrediManager
     {
         void Hesapla();
         void Biseyyap();
+
+
     }
 }
