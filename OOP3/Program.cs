@@ -14,7 +14,7 @@ namespace OOP3
             ILoggerService databaseLoggerService = new DataBaseLoggerService();
             ILoggerService fileLoggerService = new FileBaseLoggerService();
 
-            List<ILoggerService> logger = new List<ILoggerService> {new DataBaseLoggerService(), new FileBaseLoggerService()};
+            List<ILoggerService> logger = new List<ILoggerService> {new DataBaseLoggerService(), new FileBaseLoggerService(), new SmsBaseLoggerService()};
 
             BasvuruManager basvuruManager = new BasvuruManager();
             basvuruManager.BasvuruYap(konutKrediManager,logger);

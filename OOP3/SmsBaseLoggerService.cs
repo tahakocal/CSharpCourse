@@ -4,12 +4,11 @@ using System.Text;
 
 namespace OOP3
 {
-    class DataBaseLoggerService : ILoggerService
+    class SmsBaseLoggerService:ILoggerService
     {
         public void Log()
         {
-            Console.WriteLine("Veritabanina loglandi");
+            Console.WriteLine("Sms ile loglandi");
         }
-
     }
 }
