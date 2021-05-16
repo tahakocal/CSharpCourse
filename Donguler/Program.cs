@@ -15,7 +15,7 @@ namespace Donguler
 
 
             for (int i = 0; i < kurslar.Length; i++) // i++) yerine i=i+2 yapabiliriz o zaman 2 2 artar
-                  // yazdigimizin uzunlugu kadar yaziyor
+                                                     // yazdigimizin uzunlugu kadar yaziyor
             {
                 Console.WriteLine(kurslar[i]);
             }
@@ -25,10 +25,10 @@ namespace Donguler
 
             foreach (string kurs in kurslar)  // kurslari dolas dedik // kurs olarak isimlendirdigimiz olay aslinda ALIAS
             {
-                Console.WriteLine(kurs);   
+                Console.WriteLine(kurs);
             }
 
-            Console.WriteLine("Sayfa Sonu "); 
+            Console.WriteLine("Sayfa Sonu ");
         }
     }
 }

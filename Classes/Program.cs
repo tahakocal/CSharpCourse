@@ -20,7 +20,7 @@ namespace Classes
             customer.LastName = "Kocal";
             customer.City = "Istanbul";
 
-            Customer customer2 = new Customer{Id = 1, FirstName = "Kemal" , LastName = "Guler", City = "Istanbul"};
+            Customer customer2 = new Customer { Id = 1, FirstName = "Kemal", LastName = "Guler", City = "Istanbul" };
 
 
             Console.WriteLine(customer.FirstName);

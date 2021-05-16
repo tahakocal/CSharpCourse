@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Threading.Channels;
 
 namespace KampIntro
 {
@@ -17,10 +16,11 @@ namespace KampIntro
             double dolarDun = 7.36;
             double dolarBugun = 7.45;
 
-            if (dolarDun>dolarBugun)
+            if (dolarDun > dolarBugun)
             {
                 Console.WriteLine("Azalis Butonu");
-            }else if (dolarDun<dolarBugun)
+            }
+            else if (dolarDun < dolarBugun)
             {
                 Console.WriteLine("Artis Butonu");
             }
@@ -28,14 +28,14 @@ namespace KampIntro
             {
                 Console.WriteLine("Degismedi Butonu");
             }
-            
 
-        
+
+
 
             //////
             bool sistemeGirisYapmisMi = false;
 
-            if (sistemeGirisYapmisMi== true)
+            if (sistemeGirisYapmisMi == true)
             {
                 Console.WriteLine("Sisteme giris yapilmis");
             }

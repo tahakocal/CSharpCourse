@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Metotlar
 {
@@ -11,7 +9,7 @@ namespace Metotlar
             Console.WriteLine("Urun Eklendi! : " + product.Adi);
         }
 
-        public void Ekle2  (string Adi, string Aciklama, double fiyat)
+        public void Ekle2(string Adi, string Aciklama, double fiyat)
         {
             Console.WriteLine("Urun Eklendi! : " + Adi);
         }

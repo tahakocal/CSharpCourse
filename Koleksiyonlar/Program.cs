@@ -15,7 +15,7 @@ namespace Koleksiyonlar
 
 
 
-            List<string> isimler2 = new List<string>{"Taha","Sinan", "Kerim","Kemal"};
+            List<string> isimler2 = new List<string> { "Taha", "Sinan", "Kerim", "Kemal" };
             Console.WriteLine(isimler2[0]);
             Console.WriteLine(isimler2[1]);
             Console.WriteLine(isimler2[2]);

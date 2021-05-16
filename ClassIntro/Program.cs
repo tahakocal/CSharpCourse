@@ -27,7 +27,7 @@ namespace ClassIntro
             kurs4.Egitmen = "Ahmet";
             kurs4.Izlenme = 12000;
 
-            Kurs[] kurslar = new Kurs[] {kurs1, kurs2, kurs3};
+            Kurs[] kurslar = new Kurs[] { kurs1, kurs2, kurs3 };
 
             foreach (var kurs in kurslar)
             {

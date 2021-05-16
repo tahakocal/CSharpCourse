@@ -12,7 +12,7 @@ namespace _____Constructor
             customer1.Surname = "asd";
             customer1.Game = "asdfasdf";
 
-            Customer customer2 = new Customer(2,"Taha","Kocal","R6");
+            Customer customer2 = new Customer(2, "Taha", "Kocal", "R6");
 
             Console.WriteLine(customer2.Name);
         }
@@ -24,7 +24,7 @@ namespace _____Constructor
 
         public Customer()
         {
-            
+
         }
         public Customer(int id, string name, string surname, string game)
         {

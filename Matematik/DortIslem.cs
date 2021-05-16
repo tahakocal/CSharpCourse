@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace Matematik
 {
@@ -10,7 +8,7 @@ namespace Matematik
         public void Topla(int sayi1, int sayi2) //bu methodu cagirabilmemiz icin iki tane sayi vermemiz gerekyiro anlaminda
         {
             int toplam = sayi1 + sayi2;
-            Console.WriteLine("Sonuc : " +toplam);
+            Console.WriteLine("Sonuc : " + toplam);
         }
 
     }
