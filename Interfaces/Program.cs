@@ -7,6 +7,11 @@ namespace Interfaces
         static void Main(string[] args)
         {
             InterfacesIntro();
+
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new ICustomerDal.OracleCustomerDal());
+
+
             Console.ReadLine();
         }
 
@@ -50,6 +55,14 @@ namespace Interfaces
     }
 
     class Student : IPerson
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Departmant { get; set; }
+    }
+
+    class Worker : IPerson
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
