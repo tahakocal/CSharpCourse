@@ -6,8 +6,29 @@ namespace Interfaces
     {
         static void Main(string[] args)
         {
-            InterfacesIntro();
+            //InterfacesIntro();
+            //Demo();
+
+            ICustomerDal[] customerDals = new ICustomerDal[3]
+            {
+                new ICustomerDal.OracleCustomerDal(),
+                new ICustomerDal.SqlServerCustomerDal(),
+                new ICustomerDal.MySqlServerCustomerDal()
+            };
+
+            foreach (var customerDal in customerDals)
+            {
+                customerDal.Add();
+            }
+
+
             Console.ReadLine();
+        }
+
+        private static void Demo()
+        {
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new ICustomerDal.OracleCustomerDal());
         }
 
         private static void InterfacesIntro()
@@ -50,6 +71,14 @@ namespace Interfaces
     }
 
     class Student : IPerson
+    {
+        public int Id { get; set; }
+        public string FirstName { get; set; }
+        public string LastName { get; set; }
+        public string Departmant { get; set; }
+    }
+
+    class Worker : IPerson
     {
         public int Id { get; set; }
         public string FirstName { get; set; }
