@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Globalization;
 
 namespace ___G2O6
 {
@@ -27,12 +26,12 @@ namespace ___G2O6
             product4.Beden = "XL";
             product4.urunAdedi = 100;
 
-            Product[] products = new Product[] {product1, product2, product3, product4};
+            Product[] products = new Product[] { product1, product2, product3, product4 };
 
             Console.WriteLine("**************FOR EACH**************");
             foreach (var product in products)
             {
-                Console.WriteLine("Renk: "+ product.Renk+ " Beden: " + product.Beden +" Urun Adedi: "+product.urunAdedi);
+                Console.WriteLine("Renk: " + product.Renk + " Beden: " + product.Beden + " Urun Adedi: " + product.urunAdedi);
             }
 
             Console.WriteLine("****************FOR*****************");

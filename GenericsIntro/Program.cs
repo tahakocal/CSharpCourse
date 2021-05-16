@@ -10,7 +10,7 @@ namespace GenericsIntro
             MyList<string> isimler = new MyList<string>();
             isimler.Add("Taha");
 
-            
+
             Console.WriteLine(isimler);
         }
     }

@@ -1,10 +1,8 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace OOP3
 {
-    class TasitKrediManager:IKrediManager
+    class TasitKrediManager : IKrediManager
     {
         public void Hesapla()
         {
@@ -13,7 +11,7 @@ namespace OOP3
 
         public void Biseyyap()
         {
-            
+
         }
     }
 }

@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace GenericsIntro
+﻿namespace GenericsIntro
 {
     class MyList<T>
     {
@@ -16,7 +12,7 @@ namespace GenericsIntro
         {
             T[] tempArray = items;  // tempArray dedigimiz olay asagida newlendiginde 101 olan sayi 102 olacak ama 101in sahip oldugu veriler kaybolacak.
                                     // 101IN VERILERI KAYBOLMASIN DIYE TEMPARRAY 101IN VERILERINI TUTUYOR
-            items = new T[items.Length+1];   // items.length = ites arrayi 0 elemanli 0+1 olarak item ekliytoruz
+            items = new T[items.Length + 1];   // items.length = ites arrayi 0 elemanli 0+1 olarak item ekliytoruz
             for (int i = 0; i < tempArray.Length; i++)
             {
                 items[i] = tempArray[i]; // burada itemleri geri aldik

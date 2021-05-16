@@ -1,5 +1,4 @@
 ﻿using System;
-using System.Collections.Concurrent;
 
 namespace Metotlar
 {
@@ -20,7 +19,7 @@ namespace Metotlar
             products2.Aciklama = "Diyarbakir Karpuzu";
 
 
-            Product[] products = new Product[] {products1,products2};
+            Product[] products = new Product[] { products1, products2 };
 
             foreach (Product product in products)
             {
@@ -37,7 +36,7 @@ namespace Metotlar
             SepetManager sepetManager = new SepetManager();
             sepetManager.Add(products1);
             sepetManager.Add(products2);
-          
+
 
             sepetManager.Ekle2("Armut", "Yesil Armut", 29);
             sepetManager.Ekle2("Elma", "Yesil Elma", 29);

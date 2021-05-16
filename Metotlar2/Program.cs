@@ -21,11 +21,11 @@ namespace Metotlar2
             Console.WriteLine(result);
 
 
-            Console.WriteLine(Multiply(2,4));
-            Console.WriteLine(Multiply(2,4,5));
+            Console.WriteLine(Multiply(2, 4));
+            Console.WriteLine(Multiply(2, 4, 5));
 
 
-            Console.WriteLine(Add4(6,7,8,4,2,3,1,34));
+            Console.WriteLine(Add4(6, 7, 8, 4, 2, 3, 1, 34));
             Console.ReadLine();
         }
 
@@ -35,7 +35,7 @@ namespace Metotlar2
         }
 
         // void : git sunu yap diyor o yuzden voidi inte ceviriyoruz
-        static int Add2(int number1=20, int number2=10) // bunun anlami add 2 metotunu kullanan bir kisi number1 ve number 2 vermesi gerekiyor bize
+        static int Add2(int number1 = 20, int number2 = 10) // bunun anlami add 2 metotunu kullanan bir kisi number1 ve number 2 vermesi gerekiyor bize
         {
             return number1 + number2;
         }
@@ -51,7 +51,7 @@ namespace Metotlar2
             return number1 * number2;
         }
 
-        static int Multiply(int number1, int number2,int number3)
+        static int Multiply(int number1, int number2, int number3)
         {
             return number1 * number2 * number3;
         }

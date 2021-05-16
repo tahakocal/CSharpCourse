@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace OOP1
+﻿namespace OOP1
 {
     class Program
     {
@@ -14,13 +12,13 @@ namespace OOP1
             product1.UnitInStock = 3;
 
 
-            Product product2 = new Product {Id = 2, CategoryId = 5 ,ProductName = "Kalem", UnitPrice = 35, UnitInStock = 5};
+            Product product2 = new Product { Id = 2, CategoryId = 5, ProductName = "Kalem", UnitPrice = 35, UnitInStock = 5 };
 
             ProductManager productManager = new ProductManager();
             productManager.Add(product1);
 
 
-            
+
         }
     }
 }

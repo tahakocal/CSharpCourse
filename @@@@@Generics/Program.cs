@@ -1,5 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 
 namespace _____Generics
 {
@@ -10,7 +9,7 @@ namespace _____Generics
             List<string> sehirler = new List<string>();
             sehirler.Add("Manisa");
 
-            MyList<string> sehirler2 = new MyList<string>();   
+            MyList<string> sehirler2 = new MyList<string>();
             sehirler2.Add("Ankara");
 
 

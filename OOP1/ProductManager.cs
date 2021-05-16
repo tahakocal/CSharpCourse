@@ -1,6 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace OOP1
 {
@@ -23,7 +21,7 @@ namespace OOP1
 
         public void Topla2(int sayi1, int sayi2)
         {
-            Console.WriteLine(sayi1+sayi2);
+            Console.WriteLine(sayi1 + sayi2);
         }
 
     }
