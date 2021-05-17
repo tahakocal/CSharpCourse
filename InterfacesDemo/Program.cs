@@ -48,7 +48,7 @@ namespace InterfacesDemo
         void GetSalary();
     }
 
-    class Manager: IWorker,IEat,ISalary
+    class Manager : IWorker, IEat, ISalary
     {
         public void Work()
         {
@@ -66,7 +66,7 @@ namespace InterfacesDemo
         }
     }
 
-    class Worker: IWorker,IEat, ISalary
+    class Worker : IWorker, IEat, ISalary
     {
         public void Work()
         {
@@ -84,7 +84,7 @@ namespace InterfacesDemo
         }
     }
 
-    class Robot :IWorker
+    class Robot : IWorker
     {
         public void Work()
         {
