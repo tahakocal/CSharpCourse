@@ -49,6 +49,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfacesAbstractDemo", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesAbstractDemo", "InterfacesAbstractDemo\InterfacesAbstractDemo.csproj", "{0555B89F-2B3E-4178-B5F8-0DF1F7FF7153}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfacesAbstractDemo", "InterfacesAbstractDemo", "{DD6CB031-56B1-4319-9A4E-7595816C02DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterfacesAbstractDemo", "InterfacesAbstractDemo\InterfacesAbstractDemo.csproj", "{0555B89F-2B3E-4178-B5F8-0DF1F7FF7153}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
