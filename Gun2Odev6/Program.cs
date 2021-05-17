@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ___G2O6
+namespace Gun2Odev6
 {
     class Program
     {
@@ -45,7 +45,6 @@ namespace ___G2O6
             Console.ReadLine();
         }
     }
-
     class Product
     {
         public string Renk { get; set; }
