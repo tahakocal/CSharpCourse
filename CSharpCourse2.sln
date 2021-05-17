@@ -49,8 +49,6 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfacesAbstractDemo", "I
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "InterfacesAbstractDemo", "InterfacesAbstractDemo\InterfacesAbstractDemo.csproj", "{0555B89F-2B3E-4178-B5F8-0DF1F7FF7153}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "InterfacesAbstractDemo", "InterfacesAbstractDemo", "{E74E5973-F5D1-4273-AD6A-6FE0E888288D}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KampIntro", "KampIntro\KampIntro.csproj", "{2C76AEFD-1587-4F3E-B799-201076C5AA65}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClassIntro", "ClassIntro\ClassIntro.csproj", "{A9CD1607-C481-421A-BEB6-755F495F382C}"
