@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace ___G2O6
+namespace G2O6
 {
     class Program
     {
