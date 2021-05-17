@@ -22,14 +22,14 @@ namespace Interfaces2
             projectManager.Add(customerManager);
 
         }
-        
+
         interface IPersonManager
         {
             public void Add();
             public void Update();
         }
 
-        class CustomerManager:IPersonManager
+        class CustomerManager : IPersonManager
         {
             public void Add()
             {
@@ -42,7 +42,7 @@ namespace Interfaces2
             }
         }
 
-        class EmployeeManager:IPersonManager
+        class EmployeeManager : IPersonManager
         {
             public void Add()
             {

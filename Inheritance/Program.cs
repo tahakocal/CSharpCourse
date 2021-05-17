@@ -29,13 +29,13 @@ namespace Inheritance
         public string LastName { get; set; }
     }
 
-    class Customer:Person
+    class Customer : Person
     {
         public string City { get; set; }
         public string Age { get; set; }
     }
 
-    class Student:Person
+    class Student : Person
     {
         public string Department { get; set; }
     }
