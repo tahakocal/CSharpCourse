@@ -82,7 +82,7 @@ namespace LinqProject
         public string QuantityPerUnit { get; set; }
         public decimal UnitPrice { get; set; }
         public int UnitInStock { get; set; }
-    }
+        }
 
     class Category
     {
