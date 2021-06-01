@@ -33,15 +33,17 @@ namespace LinqProject
 
 
             var result = from p in products
-                join c in categories
-                    on p.CategoryId equals c.CategoryId
-                    where p.UnitPrice>5000
-                orderby p.UnitPrice descending 
-                select new ProductDTO
-                {
-                    ProductId = p.ProductId, ProductName = p.ProductName, UnitPrice = p.UnitPrice,
-                    CategoryName = c.CategoryName
-                };
+                         join c in categories
+                             on p.CategoryId equals c.CategoryId
+                         where p.UnitPrice > 5000
+                         orderby p.UnitPrice descending
+                         select new ProductDTO
+                         {
+                             ProductId = p.ProductId,
+                             ProductName = p.ProductName,
+                             UnitPrice = p.UnitPrice,
+                             CategoryName = c.CategoryName
+                         };
 
             foreach (var productDto in result)
             {
@@ -53,9 +55,9 @@ namespace LinqProject
         private static void ClassicLinqTest(List<Product> products)
         {
             var result = from p in products
-                where p.UnitPrice > 6000
-                orderby p.UnitPrice
-                select new ProductDTO {ProductId = p.ProductId, ProductName = p.ProductName, UnitPrice = p.UnitPrice};
+                         where p.UnitPrice > 6000
+                         orderby p.UnitPrice
+                         select new ProductDTO { ProductId = p.ProductId, ProductName = p.ProductName, UnitPrice = p.UnitPrice };
 
             foreach (var product in result)
             {
@@ -158,7 +160,7 @@ namespace LinqProject
         public string QuantityPerUnit { get; set; }
         public decimal UnitPrice { get; set; }
         public int UnitInStock { get; set; }
-        }
+    }
 
     class Category
     {
